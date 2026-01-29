@@ -24,7 +24,7 @@ function generateShortId() {
 module.exports={
     getShortUrl: async (longUrl)=>{
       try{
-        let shortyUrl = `https://shorty.com/`
+        let shortyUrl = `https://shorty-zp2q.onrender.com/`
         let urlDoc = await url.findOne({longUrl})
         if(urlDoc){
           return shortyUrl+`${urlDoc.shortId}`

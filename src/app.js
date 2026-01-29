@@ -6,7 +6,7 @@ const app = express();
 app.use(cors({
     origin:[
         "http://localhost:5173",
-        "https://shorty.netlify.app"
+        "https://littly.netlify.app"
     ],
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"]
